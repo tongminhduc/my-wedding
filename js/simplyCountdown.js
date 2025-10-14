@@ -153,7 +153,16 @@
             seconds,
             cd = document.querySelectorAll(elt);
 
-            targetDate = new Date("2025-11-30T10:30:00") 
+        targetTmpDate = new Date(
+            parameters.year,
+            parameters.month - 1,
+            parameters.day,
+            parameters.hours,
+            parameters.minutes,
+            parameters.seconds
+        );
+
+        targetDate = new Date("2025-11-30T10:30:00") 
 
         Array.prototype.forEach.call(cd, function (countdown) {
             var fullCountDown = createElements(parameters, countdown),
