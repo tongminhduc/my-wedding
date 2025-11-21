@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi" class="no-js">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +11,11 @@
 	<meta name="author" content="Wedding Invitation" />
 
 	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content="Thiệp Mời Cưới - Tống Đức &amp; Nguyễn Hồng"/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content="Wedding Invitation"/>
-	<meta property="og:description" content="Thiệp mời tham dự lễ thành hôn"/>
+	<meta property="og:title" content="Thiệp Mời Cưới - Tống Đức &amp; Nguyễn Hồng" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="Wedding Invitation" />
+	<meta property="og:description" content="Thiệp mời tham dự lễ thành hôn" />
 	<meta name="twitter:title" content="Thiệp Mời Cưới - Tống Đức &amp; Nguyễn Hồng" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
@@ -22,10 +23,11 @@
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-	
+
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/icomoon.css">
@@ -42,6 +44,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 </head>
+
 <body>
 	<!-- Popup chọn team và nhập tên -->
 	<div id="namePopup" class="popup-overlay">
@@ -66,215 +69,218 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="fh5co-loader"></div>
-	
+
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation" style="margin-top:55px">
-		<div class="container">
-			<div class="row" style="display: flex; justify-content: center;">
-				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+		<nav class="fh5co-nav" role="navigation" style="margin-top:55px">
+			<div class="container">
+				<div class="row" style="display: flex; justify-content: center;">
+					<div class="col-xs-2">
+						<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+					</div>
+				</div>
+
+			</div>
+		</nav>
+
+		<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/DSC08820.JPG);"
+			data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t">
+							<div class="display-tc animate-box" data-animate-effect="fadeIn">
+								<p><a href="#" class="btn btn-default btn-sm">Thiệp mời tham dự lễ thành hôn</a></p>
+								<h1 class="couple-names">Tống Đức &amp; Nguyễn Hồng</h1>
+								<div class="simply-countdown simply-countdown-one"></div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-			
-		</div>
-	</nav>
+		</header>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/DSC08820.JPG);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
+		<!-- Thiệp Nhà Trai -->
+		<div id="invitation-card-groom" class="invitation-card team-content" style="display: none;">
+			<div class="card-wrapper">
+				<div class="invitation-image-container">
+					<img src="images/nhatrai.jpg" alt="Thiệp mời nhà trai" class="invitation-image" />
+					<div class="guest-name-overlay" id="guestNameGroom">
+						<!-- Tên sẽ được fill vào đây -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Thiệp Nhà Gái -->
+		<div id="invitation-card-bride" class="invitation-card team-content" style="display: none;">
+			<div class="card-wrapper">
+				<div class="invitation-image-container">
+					<img src="images/nhagai.jpg" alt="Thiệp mời nhà gái" class="invitation-image" />
+					<div class="guest-name-overlay" id="guestNameBride">
+						<!-- Tên sẽ được fill vào đây -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-couple" class="main-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<h3 class="invitation-greeting">Trân trọng kính mời !</h3>
+						<h2 class="guest-name">Bạn</h2>
+						<p class="invitation-text">Tới dự TIỆC CƯỚI của</p>
+					</div>
+				</div>
+				<div class="couple-wrap animate-box">
+					<div class="couple-half">
+						<div class="couple-info">
+							<div class="couple-image-wrapper">
+								<div class="groom">
+									<img src="images/groom.jpg" alt="groom" class="img-responsive">
+								</div>
+							</div>
+							<h3 class="couple-name">Tống Đức</h3>
+						</div>
+					</div>
+					<p class="heart text-center"><i class="icon-heart2"></i></p>
+					<div class="couple-half">
+						<div class="couple-info">
+							<div class="couple-image-wrapper">
+								<div class="bride">
+									<img src="images/bride.jpg" alt="bride" class="img-responsive">
+								</div>
+							</div>
+							<h3 class="couple-name">Nguyễn Hồng</h3>
+						</div>
+					</div>
+				</div>
+
+				<!-- Phần giới thiệu bố mẹ -->
+				<div class="parents-section animate-box">
+					<div class="parents-divider"></div>
+					<div class="parents-info">
+						<div class="parents-header">
+							<div class="parents-label-left">Nhà trai</div>
+							<div class="parents-label-right">Nhà gái</div>
+						</div>
+						<div class="parents-row">
+							<div class="parents-groom">
+								<span class="parents-title">Ông:</span>
+								<span class="parents-name"><strong>Tống Long Giang</strong></span>
+							</div>
+							<div class="parents-bride">
+								<span class="parents-title">Ông:</span>
+								<span class="parents-name"><strong>Nguyễn Văn Minh</strong></span>
+							</div>
+						</div>
+						<div class="parents-row">
+							<div class="parents-groom">
+								<span class="parents-title">Bà:</span>
+								<span class="parents-name"><strong>Nguyễn Minh Nguyệt</strong></span>
+							</div>
+							<div class="parents-bride">
+								<span class="parents-title">Bà:</span>
+								<span class="parents-name"><strong>Vũ Thị Khuyên</strong></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Phần thời gian và địa điểm - Nhà trai -->
+				<div class="event-details-section animate-box team-content team-groom-content" style="display: none;">
+					<div class="event-divider"></div>
+
+					<!-- LỄ TÂN HÔN (Nhà trai) -->
+					<div class="event-detail">
+						<h3 class="event-title">LỄ TÂN HÔN TỔ CHỨC VÀO LÚC</h3>
+						<div class="event-time">
+							<span class="time">10 GIỜ 30 PHÚT CHỦ NHẬT</span>
+							<span class="date">NGÀY 30 THÁNG 11 NĂM 2025</span>
+							<span class="lunar-date">(Tức ngày 11 tháng 10 năm ẤT TỴ)</span>
+						</div>
+						<div class="event-divider-small"></div>
+						<div class="event-location">
+							<p class="location-label">Địa điểm:</p>
+							<p class="location-title">TẠI HỘI TRƯỜNG TẦNG 2</p>
+							<p class="location-title">TRUNG TÂM TỔ CHỨC SỰ KIỆN, TIỆC CƯỚI KHÁCH SẠN HOÀNG LONG</p>
+							<p class="location-address">TỔ 11 - Phường Trung Tâm - Tỉnh Lào Cai</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Phần thời gian và địa điểm - Nhà gái -->
+				<div class="event-details-section animate-box team-content team-bride-content" style="display: none;">
+					<div class="event-divider"></div>
+
+					<!-- LỄ VU QUY (Nhà gái) -->
+					<div class="event-detail">
+						<h3 class="event-title">LỄ VU QUY TỔ CHỨC VÀO LÚC</h3>
+						<div class="event-time">
+							<span class="time">10 GIỜ 00 PHÚT THỨ BẢY</span>
+							<span class="date">NGÀY 29 THÁNG 11 NĂM 2025</span>
+							<span class="lunar-date">(Tức ngày 10 tháng 10 năm ẤT TỴ)</span>
+						</div>
+						<div class="event-divider-small"></div>
+						<div class="event-location">
+							<p class="location-label">Địa điểm:</p>
+							<p class="location-title">TẠI TƯ GIA NHÀ GÁI</p>
+							<p class="location-address">Tổ Hợp Minh 3 - Phường Âu Lâu - Tỉnh Lào Cai</p>
+							<p class="location-note">(TỔ 3 Hợp Minh - TP Yên Bái cũ)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/DSC04974.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<span>Our Special Events</span>
+						<h2>Wedding Events</h2>
+					</div>
+				</div>
+				<div class="row">
 					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<p><a href="#" class="btn btn-default btn-sm">Thiệp mời tham dự lễ thành hôn</a></p>
-							<h1 class="couple-names">Tống Đức &amp; Nguyễn Hồng</h1>
-							<div class="simply-countdown simply-countdown-one"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<!-- Thiệp Nhà Trai -->
-	<div id="invitation-card-groom" class="invitation-card team-content" style="display: none;">
-		<div class="card-wrapper">
-			<div class="invitation-image-container">
-				<img src="images/nhatrai.jpg" alt="Thiệp mời nhà trai" class="invitation-image" />
-				<div class="guest-name-overlay" id="guestNameGroom">
-					<!-- Tên sẽ được fill vào đây -->
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Thiệp Nhà Gái -->
-	<div id="invitation-card-bride" class="invitation-card team-content" style="display: none;">
-		<div class="card-wrapper">
-			<div class="invitation-image-container">
-				<img src="images/nhagai.jpg" alt="Thiệp mời nhà gái" class="invitation-image" />
-				<div class="guest-name-overlay" id="guestNameBride">
-					<!-- Tên sẽ được fill vào đây -->
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-couple" class="main-content">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h3 class="invitation-greeting">Trân trọng kính mời !</h3>
-					<h2 class="guest-name">Bạn</h2>
-					<p class="invitation-text">Tới dự TIỆC CƯỚI của</p>
-				</div>
-			</div>
-			<div class="couple-wrap animate-box">
-				<div class="couple-half">
-					<div class="couple-info">
-						<div class="couple-image-wrapper">
-							<div class="groom">
-								<img src="images/groom.jpg" alt="groom" class="img-responsive">
-							</div>
-						</div>
-						<h3 class="couple-name">Tống Đức</h3>
-					</div>
-				</div>
-				<p class="heart text-center"><i class="icon-heart2"></i></p>
-				<div class="couple-half">
-					<div class="couple-info">
-						<div class="couple-image-wrapper">
-							<div class="bride">
-								<img src="images/bride.jpg" alt="bride" class="img-responsive">
-							</div>
-						</div>
-						<h3 class="couple-name">Nguyễn Hồng</h3>
-					</div>
-				</div>
-			</div>
-			
-			<!-- Phần giới thiệu bố mẹ -->
-			<div class="parents-section animate-box">
-				<div class="parents-divider"></div>
-				<div class="parents-info">
-					<div class="parents-header">
-						<div class="parents-label-left">Nhà trai</div>
-						<div class="parents-label-right">Nhà gái</div>
-					</div>
-					<div class="parents-row">
-						<div class="parents-groom">
-							<span class="parents-title">Ông:</span>
-							<span class="parents-name"><strong>Tống Long Giang</strong></span>
-						</div>
-						<div class="parents-bride">
-							<span class="parents-title">Ông:</span>
-							<span class="parents-name"><strong>Nguyễn Văn Minh</strong></span>
-						</div>
-					</div>
-					<div class="parents-row">
-						<div class="parents-groom">
-							<span class="parents-title">Bà:</span>
-							<span class="parents-name"><strong>Nguyễn Minh Nguyệt</strong></span>
-						</div>
-						<div class="parents-bride">
-							<span class="parents-title">Bà:</span>
-							<span class="parents-name"><strong>Vũ Thị Khuyên</strong></span>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-			<!-- Phần thời gian và địa điểm - Nhà trai -->
-			<div class="event-details-section animate-box team-content team-groom-content" style="display: none;">
-				<div class="event-divider"></div>
-				
-				<!-- LỄ TÂN HÔN (Nhà trai) -->
-				<div class="event-detail">
-					<h3 class="event-title">LỄ TÂN HÔN TỔ CHỨC VÀO LÚC</h3>
-					<div class="event-time">
-						<span class="time">10 GIỜ 30 PHÚT CHỦ NHẬT</span>
-						<span class="date">NGÀY 30 THÁNG 11 NĂM 2025</span>
-						<span class="lunar-date">(Tức ngày 11 tháng 10 năm ẤT TỴ)</span>
-					</div>
-					<div class="event-divider-small"></div>
-					<div class="event-location">
-						<p class="location-label">Địa điểm:</p>
-						<p class="location-title">TẠI HỘI TRƯỜNG TẦNG 2</p>
-						<p class="location-title">TRUNG TÂM TỔ CHỨC SỰ KIỆN, TIỆC CƯỚI KHÁCH SẠN HOÀNG LONG</p>
-						<p class="location-address">TỔ 11 - Phường Trung Tâm - Tỉnh Lào Cai</p>
-					</div>
-				</div>
-			</div>
-			
-			<!-- Phần thời gian và địa điểm - Nhà gái -->
-			<div class="event-details-section animate-box team-content team-bride-content" style="display: none;">
-				<div class="event-divider"></div>
-				
-				<!-- LỄ VU QUY (Nhà gái) -->
-				<div class="event-detail">
-					<h3 class="event-title">LỄ VU QUY TỔ CHỨC VÀO LÚC</h3>
-					<div class="event-time">
-						<span class="time">10 GIỜ 00 PHÚT THỨ BẢY</span>
-						<span class="date">NGÀY 29 THÁNG 11 NĂM 2025</span>
-						<span class="lunar-date">(Tức ngày 10 tháng 10 năm ẤT TỴ)</span>
-					</div>
-					<div class="event-divider-small"></div>
-					<div class="event-location">
-						<p class="location-label">Địa điểm:</p>
-						<p class="location-title">TẠI TƯ GIA NHÀ GÁI</p>
-						<p class="location-address">Tổ Hợp Minh 3 - Phường Âu Lâu - Tỉnh Lào Cai</p>
-						<p class="location-note">(TỔ 3 Hợp Minh - TP Yên Bái cũ)</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Special Events</span>
-					<h2>Wedding Events</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>LỄ VU QUY</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>10:00 sáng</span>
+						<div class="display-tc">
+							<div class="col-md-10 col-md-offset-1">
+								<div class="col-md-6 col-sm-6 text-center">
+									<div class="event-wrap animate-box">
+										<h3>LỄ VU QUY</h3>
+										<div class="event-col">
+											<i class="icon-clock"></i>
+											<span>10:00 sáng</span>
+										</div>
+										<div class="event-col">
+											<i class="icon-calendar"></i>
+											<span>Thứ bảy 29</span>
+											<span>Tháng 11, 2025</span>
+										</div>
+										<p>TẠI TƯ GIA NHÀ GÁI <br>
+											Tổ Hợp Minh 3 - Phường Âu Lâu - Tỉnh Lào Cai
+											(Tổ 3 Hợp Minh - TP Yên Bái cũ)</p>
 									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Thứ bảy 29</span>
-										<span>Tháng 11, 2025</span>
-									</div>
-									<p>TẠI TƯ GIA NHÀ GÁI <br>
-										Tổ Hợp Minh 3 - Phường Âu Lâu - Tỉnh Lào Cai
-										(Tổ 3 Hợp Minh - TP Yên Bái cũ)</p>
 								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>LỄ THÀNH HÔN</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>10:30 sáng</span>
+								<div class="col-md-6 col-sm-6 text-center">
+									<div class="event-wrap animate-box">
+										<h3>LỄ THÀNH HÔN</h3>
+										<div class="event-col">
+											<i class="icon-clock"></i>
+											<span>10:30 sáng</span>
+										</div>
+										<div class="event-col">
+											<i class="icon-calendar"></i>
+											<span>Chủ nhật 30</span>
+											<span>Tháng 11, 2025</span>
+										</div>
+										<p>TẠI HỘI TRƯỜNG TẦNG 2, TRUNG TÂM TỔ CHỨC SỰ KIỆN, TIỆC CƯỚI KHÁCH SẠN HOÀNG
+											LONG <br> TỔ 11 - PHƯỜNG TRUNG TÂM - TỈNH LÀO CAI</p>
 									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Chủ nhật 30</span>
-										<span>Tháng 11, 2025</span>
-									</div>
-									<p>TẠI HỘI TRƯỜNG TẦNG 2, TRUNG TÂM TỔ CHỨC SỰ KIỆN, TIỆC CƯỚI KHÁCH SẠN HOÀNG LONG <br> TỔ 11 - PHƯỜNG TRUNG TÂM - TỈNH LÀO CAI</p>
 								</div>
 							</div>
 						</div>
@@ -282,194 +288,225 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
+		<div id="fh5co-couple-story">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<span>We Love Each Other</span>
+						<h2>Our Story</h2>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/DSC08331.JPG);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">BẮT ĐẦU TỪ</h3>
-									<span class="date">2016</span>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0">
+						<ul class="timeline animate-box">
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(images/DSC09097.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">BẮT ĐẦU TỪ</h3>
+										<span class="date">2016</span>
+									</div>
+									<div class="timeline-body">
+										<p>Chúng minh bắt đầu từ những người bạn cùng lớp Hóa k27 trường THPT chuyên
+											Nguyễn Tất Thành, chúng minh đã từng rất "ghét nhau" và chưa bao giờ nghĩ
+											rằng sẽ yêu nhau và trở thành 1 đôi. Thế nhưng rồi ...</p>
+									</div>
 								</div>
-								<div class="timeline-body">
-									<p>Chúng minh bắt đầu từ những người bạn cùng lớp Hóa k27 trường THPT chuyên Nguyễn Tất Thành, chúng minh đã từng rất "ghét nhau" và chưa bao giờ nghĩ rằng sẽ yêu nhau và trở thành 1 đôi. Thế nhưng rồi ...</p>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge" style="background-image:url(images/DSC08750.JPG);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">TÌNH BẠN THÀNH TÌNH YÊU</h3>
+										<span class="date">26/03/2018</span>
+									</div>
+									<div class="timeline-body">
+										<p>Điều mà chúng mình không ngờ đến đã thành hiện thực. Chúng mình trở thành
+											người yêu trước sự ngỡ ngàng của mọi người</p>
+									</div>
 								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/DSC08638.JPG);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">TÌNH BẠN THÀNH TÌNH YÊU</h3>
-									<span class="date">26/03/2018</span>
+							</li>
+							<li class="animate-box">
+								<div class="timeline-badge" style="background-image:url(images/DSC08729.jpg);"></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">VÀ GIỜ ĐÂY</h3>
+										<span class="date">30/11/2025</span>
+									</div>
+									<div class="timeline-body">
+										<p>7 năm 8 tháng, một khoảng thời gian khá dài, chúng mình chính thức chuẩn bị
+											về một nhà, dù có nhiều lần cãi vã nhưng hơn hết chúng mình đã vượt qua và
+											thấu hiểu nhau hơn. Và chặng đường mới tiếp tục được mở ra, chúng mình tiếp
+											tục viết lên bức tranh mới cùng nhau...</p>
+									</div>
 								</div>
-								<div class="timeline-body">
-									<p>Điều mà chúng mình không ngờ đến đã thành hiện thực. Chúng mình trở thành người yêu trước sự ngỡ ngàng của mọi người</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/DSC08671.JPG);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">VÀ GIỜ ĐÂY</h3>
-									<span class="date">30/11/2025</span>
-								</div>
-								<div class="timeline-body">
-									<p>7 năm 8 tháng, một khoảng thời gian khá dài, chúng mình chính thức chuẩn bị về một nhà, dù có nhiều lần cãi vã nhưng hơn hết chúng mình đã vượt qua và thấu hiểu nhau hơn. Và chặng đường mới tiếp tục được mở ra, chúng mình tiếp tục viết lên bức tranh mới cùng nhau...</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-gallery" class="fh5co-section-gray">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Memories</span>
-					<h2>Wedding Gallery</h2>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12">
-					<ul id="fh5co-gallery-list">
-						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC08638.JPG); "> 
-						<a href="images/DSC08638.JPG" class="image-popup"></a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC09071.JPG); ">
-						<a href="images/DSC09071.JPG" class="image-popup color-2"></a>
-					</li>
-
-
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC08671.JPG); ">
-						<a href="images/DSC08671.JPG" class="image-popup color-3"></a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC09097.JPG); ">
-						<a href="images/DSC09097.JPG" class="image-popup color-4"></a>
-					</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC08767.JPG); ">
-							<a href="images/DSC08767.JPG" class="image-popup color-3"></a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC08750.JPG); ">
-							<a href="images/DSC08750.JPG" class="image-popup color-4"></a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC08717.JPG); ">
-							<a href="images/DSC08717.JPG" class="image-popup color-4"></a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC08951.JPG); "> 
-							<a href="images/DSC08951.JPG" class="image-popup color-5"></a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/DSC08729.JPG); ">
-							<a href="images/DSC08729.JPG" class="image-popup color-6"></a>
-						</li>
-					</ul>		
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div id="fh5co-started" class="fh5co-section-gray">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="rsvp-section">
-						<div class="rsvp-divider"></div>
-						<h2 class="rsvp-heading">BẠN SẼ ĐẾN CHỨ?</h2>
-						
-						<div class="rsvp-message">
-							<p>Chúng tôi rất chờ đón sự kiện trọng đại này của cuộc đời, dù phải trì hoãn rất nhiều lần. Đám cưới của chúng tôi sẽ trọn vẹn hơn khi có thêm lời chúc phúc và sự hiện diện của các bạn. Xin hãy xác nhận sự có mặt của mình để chúng tôi chuẩn bị đón tiếp một cách chu đáo nhất nhé!</p>
+		<div id="fh5co-gallery" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+						<span>Our Memories</span>
+						<h2>Wedding Gallery</h2>
+					</div>
+				</div>
+				<div class="row row-bottom-padded-md">
+					<div class="col-md-12">
+						<ul id="fh5co-gallery-list">
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC08767.jpg); ">
+								<a href="images/DSC08767.JPG" class="image-popup"></a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC08638.jpg); ">
+								<a href="images/DSC08638.JPG" class="image-popup color-2"></a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC08671.JPG); ">
+								<a href="images/DSC08671.JPG" class="image-popup color-3"></a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC08967.JPG); ">
+								<a href="images/DSC08967.JPG" class="image-popup color-4"></a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC09071.jpg); ">
+								<a href="images/DSC09071.JPG" class="image-popup color-3"></a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC08868.jpg); ">
+								<a href="images/DSC08868.JPG" class="image-popup color-4"></a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC05780.jpg); ">
+								<a href="images/DSC05780.JPG" class="image-popup color-4"></a>
+							</li>
+
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC05099.jpg); ">
+								<a href="images/DSC05099.JPG" class="image-popup color-5"></a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC05028.jpg); ">
+								<a href="images/DSC05028.JPG" class="image-popup color-6"></a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC05400.jpg); ">
+								<a href="images/DSC05400.JPG" class="image-popup color-7"></a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC05232.jpg); ">
+								<a href="images/DSC05232.JPG" class="image-popup color-8"></a>
+							</li>
+							<li class="one-third animate-box" data-animate-effect="fadeIn"
+								style="background-image: url(images/DSC05666.jpg); ">
+								<a href="images/DSC05666.JPG" class="image-popup color-9"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="fh5co-started" class="fh5co-section-gray">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="rsvp-section">
+							<div class="rsvp-divider"></div>
+							<h2 class="rsvp-heading">BẠN SẼ ĐẾN CHỨ?</h2>
+
+							<div class="rsvp-message">
+								<p>Chúng tôi rất chờ đón sự kiện trọng đại này của cuộc đời, dù phải trì hoãn rất nhiều
+									lần. Đám cưới của chúng tôi sẽ trọn vẹn hơn khi có thêm lời chúc phúc và sự hiện
+									diện của các bạn. Xin hãy xác nhận sự có mặt của mình để chúng tôi chuẩn bị đón tiếp
+									một cách chu đáo nhất nhé!</p>
+							</div>
+
+							<form class="rsvp-form" id="rsvpForm">
+								<div class="form-group">
+									<label for="guestNameForm">Họ và tên của Quý khách<span
+											class="required">*</span></label>
+									<input type="text" id="guestNameForm" name="guestName" class="form-control"
+										placeholder="Your name" required>
+								</div>
+
+								<div class="form-group">
+									<label for="guestPhone">Số điện thoại</label>
+									<input type="tel" id="guestPhone" name="guestPhone" class="form-control"
+										placeholder="Phone number">
+								</div>
+
+								<div class="form-group">
+									<label for="guestWishes">Gửi những lời chúc tốt đẹp nhất</label>
+									<textarea id="guestWishes" name="guestWishes" class="form-control" rows="5"
+										placeholder="Type here or Film a video to let us have your kind blessings"></textarea>
+								</div>
+
+								<div class="form-group">
+									<label for="guestAttendance">Quý khách sẽ tham dự chứ?</label>
+									<select id="guestAttendance" name="guestAttendance" class="form-control">
+										<option value="yes">Chắc chắn rồi</option>
+										<option value="no">Rất tiếc không thể</option>
+									</select>
+								</div>
+
+								<div class="form-group text-center">
+									<button type="submit" class="btn-rsvp">Gửi Lời Chúc</button>
+								</div>
+							</form>
 						</div>
-						
-						<form class="rsvp-form" id="rsvpForm">
-							<div class="form-group">
-								<label for="guestNameForm">Họ và tên của Quý khách<span class="required">*</span></label>
-								<input type="text" id="guestNameForm" name="guestName" class="form-control" placeholder="Your name" required>
-							</div>
-							
-							<div class="form-group">
-								<label for="guestPhone">Số điện thoại</label>
-								<input type="tel" id="guestPhone" name="guestPhone" class="form-control" placeholder="Phone number">
-							</div>
-							
-							<div class="form-group">
-								<label for="guestWishes">Gửi những lời chúc tốt đẹp nhất</label>
-								<textarea id="guestWishes" name="guestWishes" class="form-control" rows="5" placeholder="Type here or Film a video to let us have your kind blessings"></textarea>
-							</div>
-							
-							<div class="form-group">
-								<label for="guestAttendance">Quý khách sẽ tham dự chứ?</label>
-								<select id="guestAttendance" name="guestAttendance" class="form-control">
-									<option value="yes">Chắc chắn rồi</option>
-									<option value="no">Rất tiếc không thể</option>
-								</select>
-							</div>
-							
-							<div class="form-group text-center">
-								<button type="submit" class="btn-rsvp">Gửi Lời Chúc</button>
-							</div>
-						</form>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="footer-thankyou">
-						<h3 class="thankyou-text">THANK YOU <span class="heart-icon">❤️</span></h3>
+		<footer id="fh5co-footer" role="contentinfo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="footer-thankyou">
+							<h3 class="thankyou-text">THANK YOU <span class="heart-icon">❤️</span></h3>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- QR Code ở góc trái footer -->
-		<div class="qr-code-corner">
-			<div class="qr-code-wrapper" id="qrCodeButton">
-				<svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="qr-icon">
-					<!-- Top-left corner square -->
-					<rect x="2" y="2" width="8" height="8" fill="white" stroke="white" stroke-width="0.5"/>
-					<rect x="4" y="4" width="4" height="4" fill="#2196F3"/>
-					<rect x="5" y="5" width="2" height="2" fill="white"/>
-					<!-- Top-right corner square -->
-					<rect x="14" y="2" width="8" height="8" fill="white" stroke="white" stroke-width="0.5"/>
-					<rect x="16" y="4" width="4" height="4" fill="#2196F3"/>
-					<rect x="17" y="5" width="2" height="2" fill="white"/>
-					<!-- Bottom-left corner square -->
-					<rect x="2" y="14" width="8" height="8" fill="white" stroke="white" stroke-width="0.5"/>
-					<rect x="4" y="16" width="4" height="4" fill="#2196F3"/>
-					<rect x="5" y="17" width="2" height="2" fill="white"/>
-					<!-- Center pattern dots -->
-					<rect x="13" y="12" width="1.5" height="1.5" fill="white"/>
-					<rect x="15.5" y="12" width="1.5" height="1.5" fill="white"/>
-					<rect x="13" y="14.5" width="1.5" height="1.5" fill="white"/>
-					<rect x="15.5" y="14.5" width="1.5" height="1.5" fill="white"/>
-					<rect x="12" y="13.5" width="1.5" height="1.5" fill="white"/>
-					<rect x="17" y="13.5" width="1.5" height="1.5" fill="white"/>
-				</svg>
+			<!-- QR Code ở góc trái footer -->
+			<div class="qr-code-corner">
+				<div class="qr-code-wrapper" id="qrCodeButton">
+					<svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="qr-icon">
+						<!-- Top-left corner square -->
+						<rect x="2" y="2" width="8" height="8" fill="white" stroke="white" stroke-width="0.5" />
+						<rect x="4" y="4" width="4" height="4" fill="#2196F3" />
+						<rect x="5" y="5" width="2" height="2" fill="white" />
+						<!-- Top-right corner square -->
+						<rect x="14" y="2" width="8" height="8" fill="white" stroke="white" stroke-width="0.5" />
+						<rect x="16" y="4" width="4" height="4" fill="#2196F3" />
+						<rect x="17" y="5" width="2" height="2" fill="white" />
+						<!-- Bottom-left corner square -->
+						<rect x="2" y="14" width="8" height="8" fill="white" stroke="white" stroke-width="0.5" />
+						<rect x="4" y="16" width="4" height="4" fill="#2196F3" />
+						<rect x="5" y="17" width="2" height="2" fill="white" />
+						<!-- Center pattern dots -->
+						<rect x="13" y="12" width="1.5" height="1.5" fill="white" />
+						<rect x="15.5" y="12" width="1.5" height="1.5" fill="white" />
+						<rect x="13" y="14.5" width="1.5" height="1.5" fill="white" />
+						<rect x="15.5" y="14.5" width="1.5" height="1.5" fill="white" />
+						<rect x="12" y="13.5" width="1.5" height="1.5" fill="white" />
+						<rect x="17" y="13.5" width="1.5" height="1.5" fill="white" />
+					</svg>
+				</div>
 			</div>
-		</div>
-	</footer>
+		</footer>
 	</div>
 
 	<!-- QR Code Popup -->
@@ -485,7 +522,7 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-	
+
 	<!-- JavaScript Files -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script>
@@ -500,5 +537,6 @@
 	<script src="js/main.js"></script>
 	<script src="js/custom.js"></script>
 
-	</body>
+</body>
+
 </html>
